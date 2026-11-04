@@ -3,3 +3,11 @@ def get_weather(temp):
         return "hot"
     else:
         return "cold"
+
+def add(a,b):
+    return a+b
+
+def divide(a,b):
+    if b==0:
+        raise ValueError("Cannot be divided by 0")
+    return a/b
